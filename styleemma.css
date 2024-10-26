@@ -1,0 +1,21 @@
+div {
+  width: 200px;
+  height: 200px;
+  background-color: red;
+  animation-name: animate;
+  animation-duration: 1s;
+  animation-delay: 1s;
+  animation-iteration-count: infinite;
+  border-radius: 20px;
+  border-top: 5px red;
+  box-shadow: 5px 5px 5px black;
+  clip-path: polygon(50%, 50%, 50%, 50%, 50%, 50%);
+}
+@keyframes animate {
+  0% {
+    transform: rotate(10deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
